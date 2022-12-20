@@ -1,0 +1,21 @@
+<!-- Status -->
+<div class="card my-2">
+    <h4 class="card-header text-center">
+      Status
+    </h4>
+    <div class="card-body pb-0">
+        <small><table class='table table-striped table-sm'><tr><thead><th>Status<th></th><th></th><th></th><th></th><th></th><th></th><th></th></thead></tr>
+        <tr>
+            <td><strong>Hostname</strong></a></td><td class='table-success'><strong>{{ .Status.Hostname }}</strong>
+            </td>
+            <td><strong>Model</strong></a></td><td class='table-success'><strong>{{ .Status.Model }}</strong>
+            </td>
+            <td><strong>Firmware_Version</strong></a></td><td class='table-success'><strong>{{ .Status.Firmware_Version }}</strong>
+            </td>
+            <td><strong>Local_Time</strong></a></td><td class='table-success'><strong>{{ .Status.Local_Time }}</strong>
+            </td>
+        </tr>
+        </table></small>
+    </div>
+</div>
+<!-- End - Status -->

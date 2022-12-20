@@ -1,0 +1,37 @@
+pre {
+  overflow-x: auto;
+  max-width: 60vw;
+}
+
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+
+/* footer */
+
+.footer{
+  background-color: #333;
+  height: 100px;
+  margin-top: 20px;
+ .footer-text{
+   float: left;
+   font-size: $font-m;
+   color: $navbar-color;
+   line-height: 100px;
+   //針對 footer-text 的文字做設定，讓它 footer 的左邊
+ }
+ .footer-menu{
+   float: right;
+   line-height: 100px;
+   li{
+     float: left;
+     margin-right: 1em;
+     a{
+       font-size: $font-m;
+       color: $navbar-color;
+       cursor: pointer;
+             }
+   }
+ }
+}

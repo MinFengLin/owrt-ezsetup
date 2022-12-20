@@ -1,0 +1,5 @@
+.path
+go.mod
+go.sum
+.vscode
+config/.env
